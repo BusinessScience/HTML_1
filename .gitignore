@@ -1,0 +1,32 @@
+# Systemowe pliki
+.DS_Store
+Thumbs.db
+
+# Logi
+*.log
+
+# Backupy i pliki tymczasowe
+*.tmp
+*.bak
+*.swp
+*~
+
+# node.js (jeśli używasz np. npm do zarządzania paczkami)
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# dist lub build - wygenerowane pliki produkcyjne
+/dist/
+/build/
+
+# Cache przeglądarek i narzędzi
+.cache/
+.parcel-cache/
+
+# VS Code config
+.vscode/
+
+# Environment (jeśli masz plik .env z danymi konfiguracyjnymi)
+.env
